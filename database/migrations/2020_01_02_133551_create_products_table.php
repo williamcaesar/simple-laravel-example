@@ -10,11 +10,6 @@ class CreateProductsTable extends Migration
 {
     private $name = 'products';
 
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::create($this->name, function (Blueprint $table) {
@@ -22,7 +17,7 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->double('value');
             $table->integer('quantity');
-            $table->integer('category_id');
+            $table->unsignedBigInteger('category_id');
         });
     }
 

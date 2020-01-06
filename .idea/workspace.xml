@@ -4,7 +4,20 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="" />
+    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_02_133551_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_02_133551_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_02_140553_add_constraint_category_id_from_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_02_140553_add_constraint_category_id_from_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +29,41 @@
       <executable />
     </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="teste: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
@@ -107,6 +154,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Vq4BYcD3ZD5CZmGVEuFixUgvnB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -115,7 +163,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -126,13 +176,55 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.templates" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.CategoryTest">
+    <configuration name="CategoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\CategoryTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/CategoryTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CategoryTest.testDeleteCategory" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\CategoryTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/CategoryTest.php" method="testDeleteCategory" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CategoryTest.testSaveCategory" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Tests\Unit\CategoryTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/CategoryTest.php" method="testSaveCategory" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ProductTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductTest.testSaveProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ProductTest.php" method="testSaveProduct" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.CategoryTest" />
+      <item itemvalue="PHPUnit.CategoryTest.testDeleteCategory" />
+      <item itemvalue="PHPUnit.CategoryTest.testSaveCategory" />
+      <item itemvalue="PHPUnit.ProductTest (1)" />
+      <item itemvalue="PHPUnit.ProductTest.testSaveProduct" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.CategoryTest" />
+        <item itemvalue="PHPUnit.ProductTest (1)" />
+        <item itemvalue="PHPUnit.ProductTest.testSaveProduct" />
+        <item itemvalue="PHPUnit.CategoryTest.testSaveCategory" />
+        <item itemvalue="PHPUnit.CategoryTest.testDeleteCategory" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -159,7 +251,10 @@
       <workItem from="1577967158631" duration="1379000" />
       <workItem from="1577970463453" duration="336000" />
       <workItem from="1577971550138" duration="5882000" />
-      <workItem from="1577985768954" duration="4406000" />
+      <workItem from="1577985768954" duration="7740000" />
+      <workItem from="1578051193344" duration="18704000" />
+      <workItem from="1578160761450" duration="342000" />
+      <workItem from="1578309785280" duration="12463000" />
     </task>
     <servers />
   </component>
@@ -167,37 +262,165 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="262" y="55" width="824" height="691" key="#CLI_Interpreters" timestamp="1578073381249">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="262" y="55" width="824" height="691" key="#CLI_Interpreters/0.27.1366.741@0.27.1366.741" timestamp="1578073381249" />
+    <state x="316" y="27" width="838" height="741" key="#ExampleTest" timestamp="1578073328602">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="316" y="27" width="838" height="741" key="#ExampleTest.testBasicTest" timestamp="1578073387841">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="316" y="27" width="838" height="741" key="#ExampleTest.testBasicTest/0.27.1366.741@0.27.1366.741" timestamp="1578073387841" />
+    <state x="316" y="27" width="838" height="741" key="#ExampleTest/0.27.1366.741@0.27.1366.741" timestamp="1578073328602" />
+    <state x="335" y="27" width="688" height="741" key="#PHP" timestamp="1578073383863">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="335" y="27" width="688" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1578073383863" />
+    <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578319234167">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1578319234167" />
+    <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578313627247">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1366.741@0.27.1366.741" timestamp="1578313627247" />
     <state x="419" y="27" width="517" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577974575801">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="419" y="27" width="517" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1577974575801" />
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578320402829">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1578320402829" />
     <state x="286" y="257" width="783" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577992690219">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="286" y="257" width="783" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1577992690219" />
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1577967234016">
+    <state width="1320" height="170" key="GridCell.Tab.0.bottom" timestamp="1578322242429">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577967234016" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1577967234015">
+    <state width="1320" height="170" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578322242429" />
+    <state width="1320" height="170" key="GridCell.Tab.0.center" timestamp="1578322242427">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577967234015" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1577967234015">
+    <state width="1320" height="170" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1578322242427" />
+    <state width="1320" height="170" key="GridCell.Tab.0.left" timestamp="1578322242426">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577967234015" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1577967234015">
+    <state width="1320" height="170" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1578322242426" />
+    <state width="1320" height="170" key="GridCell.Tab.0.right" timestamp="1578322242428">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577967234015" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1577989555956">
+    <state width="1320" height="170" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1578322242428" />
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1578321152714">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577989555956" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577996794354">
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
+    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1578321152714">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1577996794354" />
+    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
+    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1578321152714">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
+    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1578321152714">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
+    <state width="323" height="520" key="HiddenNamespacesPopup" timestamp="1578054128008">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="323" height="520" key="HiddenNamespacesPopup/0.27.1366.741@0.27.1366.741" timestamp="1578054128008" />
+    <state x="398" y="122" width="560" height="558" key="RollbackChangesDialog" timestamp="1578051686979">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="398" y="122" width="560" height="558" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1578051686979" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1578319137386">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1578319137386" />
+    <state x="296" y="88" width="763" height="625" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1578073782997">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="296" y="88" width="763" height="625" key="com.jetbrains.php.test.PhpNewTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1578073782997" />
+    <state x="0" y="27" width="703" height="741" key="find.popup" timestamp="1578314831067">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="703" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1578314831067" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1578316120518">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1578316120517" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578319487270">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578319487270" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/ProductTest.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/novo_projeto@CategoryTest_testSaveCategory.xml" NAME="CategoryTest.testSaveCategory Coverage Results" MODIFIED="1578318710505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
