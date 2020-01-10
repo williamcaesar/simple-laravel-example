@@ -1,0 +1,40 @@
+"A datetime string with format `Y-m-d H:i:s`, e.g. `2018-01-01 13:00:00`."
+scalar DateTime @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\DateTime")
+
+"A date string with format `Y-m-d`, e.g. `2011-05-23`."
+scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
+
+type Query  {
+    categories: [Category!]! @all
+    category(id: ID @eq): Category @find
+    products: [Product!]! @all
+    product(id: ID @eq): Product @find
+}
+
+type Mutation {
+    upsertCategory(id: ID name: String!): Category @upsert
+    upsertProduct(id: ID name: String! value: Float! quantity:Int! category_id: Int!): Product @upsert
+
+    deleteCategory(id: ID!) : Category @delete
+    deleteProduct(id: ID! ) : Product @delete
+}
+
+type Category {
+    id: ID!
+    name: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+    products: [Product!]! @hasMany
+}
+
+type Product {
+    id: ID!
+    name: String!
+    quantity: Int!
+    value: Float!
+    created_at: DateTime!
+    updated_at: DateTime!
+    category_id: ID!
+    category : Category! @belongsTo
+}
+

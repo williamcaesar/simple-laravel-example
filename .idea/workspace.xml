@@ -4,19 +4,39 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="Add graphql and other perks">
+      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Category/categoryCreate.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Category/categoryDestroy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Category/categoryIndex.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Category/categoryShow.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Product/productCreate.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Product/productDestroy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Product/productIndex.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Product/productShow.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/novo-projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/novo-projeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_02_133551_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_02_133551_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_02_140553_add_constraint_category_id_from_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_02_140553_add_constraint_category_id_from_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +76,27 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="teste: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="teste: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="password_resets: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="teste: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:8000" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
@@ -151,6 +185,11 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/nuwave/lighthouse" />
+      <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
+      <path value="$PROJECT_DIR$/vendor/haydenpierce/class-finder" />
+      <path value="$PROJECT_DIR$/vendor/mll-lab/laravel-graphql-playground" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Vq4BYcD3ZD5CZmGVEuFixUgvnB" />
@@ -167,7 +206,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -176,9 +215,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.php.debug.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="PHPUnit.CategoryTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/Category" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
     <configuration name="CategoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\CategoryTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/CategoryTest.php" scope="Class" />
       <method v="2" />
@@ -208,7 +256,11 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8000" router_script="$PROJECT_DIR$/artisan" use_router_script="true">
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="PHP Built-in Web Server.Unnamed" />
       <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHPUnit.CategoryTest" />
       <item itemvalue="PHPUnit.CategoryTest.testDeleteCategory" />
@@ -254,12 +306,20 @@
       <workItem from="1577985768954" duration="7740000" />
       <workItem from="1578051193344" duration="18704000" />
       <workItem from="1578160761450" duration="342000" />
-      <workItem from="1578309785280" duration="12463000" />
+      <workItem from="1578309785280" duration="22885000" />
+      <workItem from="1578396003606" duration="23677000" />
+      <workItem from="1578482430034" duration="13350000" />
+      <workItem from="1578507963950" duration="8940000" />
+      <workItem from="1578568947824" duration="23599000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add graphql and other perks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add graphql and other perks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="55" width="824" height="691" key="#CLI_Interpreters" timestamp="1578073381249">
@@ -278,58 +338,78 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="335" y="27" width="688" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1578073383863" />
-    <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578319234167">
+    <state x="402" y="252" width="551" height="302" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578340122708">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1578319234167" />
+    <state x="402" y="252" width="551" height="302" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.27.1366.741@0.27.1366.741" timestamp="1578340122708" />
+    <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578510269547">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1578510269547" />
     <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578313627247">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1366.741@0.27.1366.741" timestamp="1578313627247" />
+    <state x="584" y="344" width="188" height="113" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1578510278544">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="584" y="344" width="188" height="113" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1578510278544" />
     <state x="419" y="27" width="517" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577974575801">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="419" y="27" width="517" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1577974575801" />
-    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578320402829">
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578599771761">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1578320402829" />
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1578599771761" />
+    <state x="372" y="191" width="838" height="486" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1578483348908">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="372" y="191" width="838" height="486" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.27.1366.741@0.27.1366.741" timestamp="1578483348908" />
     <state x="286" y="257" width="783" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577992690219">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="286" y="257" width="783" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1577992690219" />
-    <state width="1320" height="170" key="GridCell.Tab.0.bottom" timestamp="1578322242429">
+    <state x="217" y="27" width="922" height="741" key="CommitChangelistDialog2" timestamp="1578597463092">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578322242429" />
-    <state width="1320" height="170" key="GridCell.Tab.0.center" timestamp="1578322242427">
+    <state x="217" y="27" width="922" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1578597463092" />
+    <state x="574" y="177" width="424" height="521" key="FileChooserDialogImpl" timestamp="1578491407695">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1578322242427" />
-    <state width="1320" height="170" key="GridCell.Tab.0.left" timestamp="1578322242426">
+    <state x="574" y="177" width="424" height="521" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1578491407695" />
+    <state width="1320" height="170" key="GridCell.Tab.0.bottom" timestamp="1578507943575">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1578322242426" />
-    <state width="1320" height="170" key="GridCell.Tab.0.right" timestamp="1578322242428">
+    <state width="1320" height="170" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
+    <state width="1320" height="170" key="GridCell.Tab.0.center" timestamp="1578507943575">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="170" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1578322242428" />
-    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1578321152714">
+    <state width="1320" height="170" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
+    <state width="1320" height="170" key="GridCell.Tab.0.left" timestamp="1578507943575">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
-    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1578321152714">
+    <state width="1320" height="170" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
+    <state width="1320" height="170" key="GridCell.Tab.0.right" timestamp="1578507943575">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
-    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1578321152714">
+    <state width="1320" height="170" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1578342775291">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
-    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1578321152714">
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578342775291" />
+    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1578342775290">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1578321152714" />
+    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1578342775290" />
+    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1578342775290">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1578342775290" />
+    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1578342775291">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1578342775291" />
     <state width="323" height="520" key="HiddenNamespacesPopup" timestamp="1578054128008">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -338,26 +418,30 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="398" y="122" width="560" height="558" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1578051686979" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1578319137386">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1578495548440">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1578319137386" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1578495548440" />
+    <state x="584" y="277" width="474" height="247" key="WebDeployment.AddServerDialog.v.1" timestamp="1578483186806">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="584" y="277" width="474" height="247" key="WebDeployment.AddServerDialog.v.1/0.27.1366.741@0.27.1366.741" timestamp="1578483186806" />
     <state x="296" y="88" width="763" height="625" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1578073782997">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="296" y="88" width="763" height="625" key="com.jetbrains.php.test.PhpNewTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1578073782997" />
-    <state x="0" y="27" width="703" height="741" key="find.popup" timestamp="1578314831067">
+    <state x="0" y="27" width="703" height="741" key="find.popup" timestamp="1578601289420">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="0" y="27" width="703" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1578314831067" />
+    <state x="0" y="27" width="703" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1578601289420" />
     <state x="347" y="174" key="run.anything.popup" timestamp="1578316120518">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1578316120517" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578319487270">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578603401734">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578319487270" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578603401734" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +500,51 @@
           <url>file://$PROJECT_DIR$/tests/Unit/CategoryTest.php</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Middleware/CheckAge.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Middleware/CheckAge.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Middleware/CheckAge.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/Product/productShow.blade.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/Product/productShow.blade.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/Product/productShow.blade.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/Product/productShow.blade.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

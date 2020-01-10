@@ -18,6 +18,6 @@ class Product extends Model
         'name',
         'value',
         'quantity',
-        'category_id'
+        'category_id',
     ];
 }
