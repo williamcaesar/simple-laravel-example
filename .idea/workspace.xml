@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="Add graphql and other perks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-    </list>
+    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="Add graphql and other perks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -276,7 +273,7 @@
       <workItem from="1578568947824" duration="23599000" />
       <workItem from="1578663999901" duration="17301000" />
       <workItem from="1578836332684" duration="1480000" />
-      <workItem from="1578844239414" duration="1063000" />
+      <workItem from="1578844239414" duration="1305000" />
     </task>
     <servers />
   </component>

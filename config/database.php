@@ -86,7 +86,7 @@ return [
 //            'sslmode' => 'prefer',
 //        ],
 
-        array(
+        'pgsql' => array(
             'driver'   => 'pgsql',
             'host'     => $host,
             'database' => $database,
