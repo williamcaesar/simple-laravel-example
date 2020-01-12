@@ -15,7 +15,9 @@
         </p>
     @endforeach
 
-    <a href="/products/create">
-        CREATE
-    </a>
+    @can('create', \App\Product::class)
+        <a href="/products/create">
+            CREATE
+        </a>
+    @endcan
 @endsection
