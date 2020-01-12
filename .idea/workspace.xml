@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="Add graphql and other perks">
-      <change afterPath="$PROJECT_DIR$/resources/views/categoryCreated.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/novo-projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/novo-projeto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckAge.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckAge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/CategoryPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/CategoryPolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/ProductPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/ProductPolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Category/categoryIndex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Category/categoryIndex.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Category/categoryShow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Category/categoryShow.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Product/productIndex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Product/productIndex.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Product/productShow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Product/productShow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,17 +246,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@127.0.0.1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@127.0.0.1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3f703809" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -313,6 +275,8 @@
       <workItem from="1578507963950" duration="8940000" />
       <workItem from="1578568947824" duration="23599000" />
       <workItem from="1578663999901" duration="17301000" />
+      <workItem from="1578836332684" duration="1480000" />
+      <workItem from="1578844239414" duration="1063000" />
     </task>
     <servers />
   </component>
@@ -324,7 +288,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -451,10 +417,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="584" y="277" width="474" height="247" key="WebDeployment.AddServerDialog.v.1/0.27.1366.741@0.27.1366.741" timestamp="1578483186806" />
-    <state x="366" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1578664003678">
+    <state x="366" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1578844760183">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1578664003678" />
+    <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1578844760183" />
     <state x="296" y="88" width="763" height="625" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1578073782997">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -467,10 +433,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1578316120517" />
-    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1578689721620">
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1578845246137">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1366.741@0.0.1366.741" timestamp="1578689721620" />
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1366.741@0.0.1366.741" timestamp="1578845246137" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578603401734" />
   </component>
   <component name="XDebuggerManager">
