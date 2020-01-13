@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="Add graphql and other perks" />
+    <list default="true" id="704c22a0-de38-4e5e-ac8d-8e6c4ef06aac" name="Default Changelist" comment="Add graphql and other perks">
+      <change afterPath="$PROJECT_DIR$/app/Notifications/EntityCreation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/EntityDeletion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_13_145815_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/markdownPOC/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Notifications/ProductCreated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +57,11 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:8000" />
@@ -160,11 +178,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Notifications" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -176,14 +194,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/resources/views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/Category" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Notifications" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
@@ -243,7 +262,21 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@127.0.0.1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@127.0.0.1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5340e769" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres heroku" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -273,7 +306,8 @@
       <workItem from="1578568947824" duration="23599000" />
       <workItem from="1578663999901" duration="17301000" />
       <workItem from="1578836332684" duration="1480000" />
-      <workItem from="1578844239414" duration="1305000" />
+      <workItem from="1578844239414" duration="2331000" />
+      <workItem from="1578914140175" duration="14394000" />
     </task>
     <servers />
   </component>
@@ -318,10 +352,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="402" y="252" width="551" height="302" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.27.1366.741@0.27.1366.741" timestamp="1578340122708" />
-    <state x="278" y="32" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578667318372">
+    <state x="278" y="32" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578845922850">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="278" y="32" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1578667318372" />
+    <state x="278" y="32" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1578845922850" />
     <state x="278" y="59" width="944" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1578510269547" />
     <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578313627247">
       <screen x="0" y="27" width="1366" height="741" />
@@ -335,13 +369,18 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="584" y="344" width="188" height="113" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1578510278544" />
+    <state x="366" y="100" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578920307932">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="366" y="100" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.741@0.0.1366.741" timestamp="1578920307932" />
     <state x="419" y="27" width="517" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577974575801">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="419" y="27" width="517" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1577974575801" />
-    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578599771761">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="416" y="128" width="524" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578922829002">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
+    <state x="416" y="128" width="524" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.741@0.0.1366.741" timestamp="1578922829002" />
     <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1578599771761" />
     <state x="372" y="191" width="838" height="486" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1578483348908">
       <screen x="0" y="27" width="1366" height="741" />
@@ -360,25 +399,25 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="574" y="177" width="424" height="521" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1578491407695" />
-    <state width="906" height="177" key="GridCell.Tab.0.bottom" timestamp="1578667396494">
+    <state width="906" height="177" key="GridCell.Tab.0.bottom" timestamp="1578918965735">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1578667396494" />
+    <state width="906" height="177" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1578918965735" />
     <state width="1320" height="170" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
-    <state width="906" height="177" key="GridCell.Tab.0.center" timestamp="1578667396493">
+    <state width="906" height="177" key="GridCell.Tab.0.center" timestamp="1578918965735">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1578667396493" />
+    <state width="906" height="177" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1578918965735" />
     <state width="1320" height="170" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
-    <state width="906" height="177" key="GridCell.Tab.0.left" timestamp="1578667396493">
+    <state width="906" height="177" key="GridCell.Tab.0.left" timestamp="1578918965734">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1578667396493" />
+    <state width="906" height="177" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1578918965734" />
     <state width="1320" height="170" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
-    <state width="906" height="177" key="GridCell.Tab.0.right" timestamp="1578667396494">
+    <state width="906" height="177" key="GridCell.Tab.0.right" timestamp="1578918965735">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1578667396494" />
+    <state width="906" height="177" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1578918965735" />
     <state width="1320" height="170" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1578507943575" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1578342775291">
       <screen x="0" y="27" width="1366" height="741" />
@@ -396,10 +435,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1578342775291" />
-    <state width="323" height="520" key="HiddenNamespacesPopup" timestamp="1578667334486">
+    <state width="323" height="520" key="HiddenNamespacesPopup" timestamp="1578845934533">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="323" height="520" key="HiddenNamespacesPopup/0.0.1366.741@0.0.1366.741" timestamp="1578667334486" />
+    <state width="323" height="520" key="HiddenNamespacesPopup/0.0.1366.741@0.0.1366.741" timestamp="1578845934533" />
     <state width="323" height="520" key="HiddenNamespacesPopup/0.27.1366.741@0.27.1366.741" timestamp="1578054128008" />
     <state x="398" y="122" width="560" height="558" key="RollbackChangesDialog" timestamp="1578051686979">
       <screen x="0" y="27" width="1366" height="741" />
@@ -414,10 +453,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="584" y="277" width="474" height="247" key="WebDeployment.AddServerDialog.v.1/0.27.1366.741@0.27.1366.741" timestamp="1578483186806" />
-    <state x="366" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1578844760183">
+    <state x="366" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1578914188369">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1578844760183" />
+    <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1578914188369" />
     <state x="296" y="88" width="763" height="625" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1578073782997">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -430,10 +469,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1578316120517" />
-    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1578845246137">
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1578935183457">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1366.741@0.0.1366.741" timestamp="1578845246137" />
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1366.741@0.0.1366.741" timestamp="1578935183457" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578603401734" />
   </component>
   <component name="XDebuggerManager">
@@ -511,12 +550,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php</url>
-          <line>14</line>
+          <line>27</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php</url>
-          <line>15</line>
+          <line>28</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -541,12 +580,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php</url>
-          <line>109</line>
+          <line>93</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php</url>
-          <line>108</line>
+          <line>92</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
