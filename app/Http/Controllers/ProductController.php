@@ -3,46 +3,45 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Notifications\EntityCreation;
+use App\Notifications\EntityDeletion;
 use App\Product;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Gate;
-use Illuminate\View\View;
+use Illuminate\Support\Facades\Notification;
 
 class ProductController extends Controller
 {
+    private $admins;
+
+
+    public function __construct()
+    {
+        $this->admins = User::where('is_admin', true)->get();
+    }
+
     public function index()
     {
+        $this->authorize('viewAny', Product::class);
+
         $all = Product::all();
         return view('Product/productIndex', [
             'products' => $all,
         ]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        $user = Auth::user();
-        Gate::authorize('is_admin', $user);
+        $this->authorize('create', Product::class);
 
         $categories = Category::all();
         return view('Product/productCreate', ['categories' => $categories]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        $user = Auth::user();
-        Gate::authorize('is_admin', $user);
+        $this->authorize('create', Product::class);
 
         $product = new Product([
             'name' => $request->name ? $request->name : '-',
@@ -51,17 +50,18 @@ class ProductController extends Controller
             'category_id' => $request->category_id
         ]);
         $product->save();
+
+        $user = Auth::user();
+        Notification::send($this->admins,
+            new EntityCreation($user->name, Product::class));
+
         return view('index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
+        $this->authorize('viewAny', Product::class);
+
         $categories = Category::all();
         $product = Product::find($id);
         $categoryName = $product->category->name;
@@ -73,16 +73,9 @@ class ProductController extends Controller
         ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
-        $user = Auth::user();
-        Gate::authorize('is_admin', $user);
+        $this->authorize('update', Product::class);
 
         $product = Product::find($id);
         $categories = Category::all();
@@ -93,17 +86,9 @@ class ProductController extends Controller
         ]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
-        $user = Auth::user();
-        Gate::authorize('is_admin', $user);
+        $this->authorize('update', Product::class);
 
         try {
             $product = Product::find($id);
@@ -119,19 +104,18 @@ class ProductController extends Controller
         }
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        Gate::authorize('delete');
+        $this->authorize('delete', Product::class);
 
         try {
             $product = Product::find($id);
             $product->delete();
+
+            $user = Auth::user();
+            Notification::send($this->admins,
+                new EntityDeletion($user->name, Product::class));
+
             return view('index');
 
         } catch (Exception $e) {

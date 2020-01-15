@@ -14,8 +14,9 @@
             </a>
         </p>
     @endforeach
-
-    <a href="/categories/create">
-        CREATE
-    </a>
+    @can('create', \App\Category::class)
+        <a href="/categories/create">
+            CREATE
+        </a>
+    @endcan
 @endsection
